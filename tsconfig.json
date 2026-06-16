@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,         // Generates the .d.ts files for your users
+    "outDir": "./dist",          // Where the compiled JS code will go
+    "rootDir": "./src",          // Where your source code lives
+    "strict": true
+  },
+  "include": ["src/**/*"]
+}

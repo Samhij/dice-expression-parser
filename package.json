@@ -1,0 +1,16 @@
+{
+  "name": "dice-expression-parser",
+  "version": "1.0.0",
+  "description": "A simple parser for D&D dice notation.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "typescript": "^6.0.3"
+  }
+}
