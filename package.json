@@ -1,5 +1,5 @@
 {
-  "name": "dice-expression-parser",
+  "name": "nat20-dice-parser",
   "version": "1.0.0",
   "description": "A simple parser for D&D dice notation.",
   "main": "./dist/index.js",
@@ -7,10 +7,12 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
   }
 }
