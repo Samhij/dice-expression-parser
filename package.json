@@ -1,6 +1,6 @@
 {
   "name": "nat20-dice-parser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple parser for D&D dice notation.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
